@@ -66,7 +66,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
             <!-- Brand Logo Frame featuring AME Pay Logo.jpg in a crisp black capsule for dark logo isolation -->
             <a href="#" onclick="navigateTo('home'); return false;" class="flex items-center gap-3 group">
-                <div class="h-11 px-3 py-1.5 rounded-lg bg-black flex items-center justify-center border border-brand-border shadow-sm transition-transform duration-200 group-hover:scale-[1.02]">
                     <img src="AME Pay Logo.jpg" alt="AME Pay Logo.jpg" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-lg tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
                 </div>
             </a>
