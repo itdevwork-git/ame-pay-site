@@ -914,7 +914,7 @@
                                 <div class="grid grid-cols-2 gap-4">
                                     <div>
                                         <label class="block text-xs font-bold text-brand-textSecondary mb-1">First Name</label>
-                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Sarah">
+                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Jennifer">
                                     </div>
                                     <div>
                                         <label class="block text-xs font-bold text-brand-textSecondary mb-1">Last Name</label>
@@ -924,12 +924,13 @@
 
                                 <div>
                                     <label class="block text-xs font-bold text-brand-textSecondary mb-1">Business Email Address</label>
-                                    <input type="email" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="sarah@vancestrat.com.au">
+                                    <input type="email" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="info@ame-pay.com.au">
                                 </div>
 
                                 <div>
                                     <label class="block text-xs font-bold text-brand-textSecondary mb-1">Company Name</label>
-                                    <input type="text" class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Vance Strategic Pty Ltd">
+                                    <input type="text" class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="AME Tech Pty Ltd
+">
                                 </div>
 
                                 <div>
