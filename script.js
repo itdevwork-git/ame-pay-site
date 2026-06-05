@@ -914,22 +914,22 @@
                                 <div class="grid grid-cols-2 gap-4">
                                     <div>
                                         <label class="block text-xs font-bold text-brand-textSecondary mb-1">First Name</label>
-                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Jennifer">
+                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Jane">
                                     </div>
                                     <div>
                                         <label class="block text-xs font-bold text-brand-textSecondary mb-1">Last Name</label>
-                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Vance">
+                                        <input type="text" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="Doe">
                                     </div>
                                 </div>
 
                                 <div>
                                     <label class="block text-xs font-bold text-brand-textSecondary mb-1">Business Email Address</label>
-                                    <input type="email" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="info@ame-pay.com.au">
+                                    <input type="email" required class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="info@company.com.au">
                                 </div>
 
                                 <div>
                                     <label class="block text-xs font-bold text-brand-textSecondary mb-1">Company Name</label>
-                                    <input type="text" class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="AME Tech Pty Ltd
+                                    <input type="text" class="w-full p-3 rounded-lg border border-brand-border bg-white text-sm focus:ring-2 focus:ring-brand-blue focus:outline-none" placeholder="MyCompant Pty Ltd
 ">
                                 </div>
 
