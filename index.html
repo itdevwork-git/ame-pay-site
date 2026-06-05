@@ -1017,7 +1017,7 @@
         </div>
     </footer>
 
-    <script>
+     <script>
         // Smooth client-side SPA routing
         function navigateTo(viewId) {
             // Hide all views
@@ -1054,6 +1054,52 @@
             } else {
                 menu.classList.add('hidden');
             }
+        }
+
+        // Contact form handling and mailto redirect
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            // Extract the user values dynamically
+            const firstName = document.getElementById('first-name').value;
+            const lastName = document.getElementById('last-name').value;
+            const email = document.getElementById('email').value;
+            const companyName = document.getElementById('company').value || 'N/A';
+            const messageText = document.getElementById('message').value;
+
+            // Target recipient email parameters
+            const recipient = 'info@ame-pay.com.au';
+            const subject = `AME Pay Inquiry: ${companyName} (${firstName} ${lastName})`;
+            
+            // Construct a clean plaintext body template
+            const body = `Inquiry Details:\n` +
+                         `---------------------------------------------\n` +
+                         `Sender: ${firstName} ${lastName}\n` +
+                         `Business Email: ${email}\n` +
+                         `Company Name: ${companyName}\n\n` +
+                         `Message:\n` +
+                         `${messageText}\n` +
+                         `---------------------------------------------\n` +
+                         `Submitted via AME Pay Landing Portal.`;
+
+            // Build valid system URI
+            const mailtoUri = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+            // Open the default system email client
+            window.location.href = mailtoUri;
+
+            // Handle UI success and resetting animations
+            const form = document.getElementById('contact-form');
+            const success = document.getElementById('form-success');
+
+            form.classList.add('hidden');
+            success.classList.remove('hidden');
+
+            setTimeout(() => {
+                form.reset();
+                form.classList.remove('hidden');
+                success.classList.add('hidden');
+            }, 5000);
         }
 
         // Fee calculations logic
