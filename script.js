@@ -961,8 +961,9 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                 
                 <div>
-               
-                        <img src="AME Pay Logo_3.jpg" alt="AME Pay Logo_3.jpg" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-sm tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
+                    <!-- Footer branding matching dark logo container framework exactly -->
+                    <div class="h-11 w-32 px-3 py-1.5 rounded-lg bg-white flex items-center justify-center border border-brand-border shadow-sm mb-6">
+                        <img src="AME Pay Logo.png" alt="AME Pay Logo.png" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-sm tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
                     </div>
                     <p class="text-xs text-brand-textSecondary leading-relaxed mb-6">
                         Seamless payment automation and direct debit clearing infrastructure engineered specifically for growing Australian businesses.
