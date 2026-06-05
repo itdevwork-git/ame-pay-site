@@ -64,9 +64,10 @@
 
     <nav class="fixed top-0 left-0 right-0 h-20 bg-white/90 backdrop-blur-md border-b border-brand-border z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-            <!-- Brand Logo Frame featuring AME Pay Logo.jpg in a crisp white capsule for dark logo isolation -->
+            <!-- Brand Logo Frame featuring AME Pay Logo.png in a crisp white capsule for dark logo isolation -->
             <a href="#" onclick="navigateTo('home'); return false;" class="flex items-center gap-3 group">
-                    <img src="AME Pay Logo.jpg" alt="AME Pay Logo.jpg" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-lg tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
+                <div class="h-11 px-3 py-1.5 rounded-lg bg-white flex items-center justify-center border border-brand-border shadow-sm transition-transform duration-200 group-hover:scale-[1.02]">
+                    <img src="AME Pay Logo.png" alt="AME Pay Logo.png" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-lg tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
                 </div>
             </a>
 
@@ -960,7 +961,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                 
                 <div>
-                    <!-- Footer branding matching dark logo container framework exactly -->
+               
                         <img src="AME Pay Logo_3.jpg" alt="AME Pay Logo_3.jpg" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-white font-sora font-extrabold text-sm tracking-tight\'>ame<span class=\'text-brand-cyan\'>pay</span></span>'">
                     </div>
                     <p class="text-xs text-brand-textSecondary leading-relaxed mb-6">
